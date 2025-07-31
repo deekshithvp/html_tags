@@ -163,25 +163,28 @@
             </tr>
 
             <tr>
-                <td>12</td>
+                   <td>12</td>
                 <td>&lt;embed&gt;</td>
                 <td>embed object</td>
                 <td>&lt;embed src="yourfile.mid" width="100%" height="60" align="center"&gt;</td>
                 <td>
-                    <p>Audio controls may appear here if a valid .mid file is provided.</p>
+                    <audio controls >
+                        <source src="birg.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                 </td>
             </tr>
              <tr>
                 <td>13</td>
                 <td>&lt;embed&gt;</td>
                 <td>embed object</td>
-                <td>&lt;embed src="yourfile.mid" autostart="true" hidden="false" loop="false"&gt;<br> &lt;noembed&gt;&lt;bgsound src="yourfile.mid" loop="1"&gt;&lt;/noembed&gt;</td>
+                <td>&lt;embed src="bird.mp3" autostart="true" hidden="false" loop="false"&gt;<br> &lt;noembed&gt;&lt;bgsound src="yourfile.mid" loop="1"&gt;&lt;/noembed&gt;</td>
                 <td>
-                    Music will begin playing<br> when your page is loaded<br> and will only play one time.<br> A control panel will be<br> displayed to enable your<br> visitors to stop the music.
-                    <p>Audio will attempt to play if a valid .mid file is provided.</p>
+                    <audio controls autoplay >
+                        <source src="birg.mp3" type="audio/mpeg">
+                    </audio>
                 </td>
             </tr>
-
             <tr>
                 <td>14</td>
                 <td>&lt;font&gt;</td>
